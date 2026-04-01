@@ -23,7 +23,7 @@ Proyecto desarrollado con Django.
 ---
 
 ### 🌐 Template (HTML)
-![Template](docs/Template.png)
+![Template](docs/Templace.png)
 
 ---
 
