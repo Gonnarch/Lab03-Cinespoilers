@@ -1,0 +1,19 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Películas</title>
+</head>
+<body>
+
+<h1>Lista de Películas</h1>
+
+<ul>
+    {% for movie in movies %}
+        <li>{{ movie.title }} - {{ movie.director }}</li>
+    {% empty %}
+        <li>No hay películas</li>
+    {% endfor %}
+</ul>
+
+</body>
+</html>
